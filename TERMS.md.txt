@@ -1,0 +1,7 @@
+# Terms of Service
+
+This application is currently in development and intended for testing and demonstration purposes only.
+
+We do not collect or store any personal data. By using this app, you agree that any data retrieved via the FacebookInstagram API is handled for demonstration purposes only.
+
+Contact laglegrayen@gmail.com
