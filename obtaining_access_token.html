@@ -13,7 +13,7 @@
 <script>
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : 'YOUR_APP_ID', // Replace with your App ID
+      appId      : '3747233855421690',
       cookie     : true,
       xfbml      : true,
       version    : 'v22.0'
@@ -28,7 +28,7 @@
         const accessToken = response.authResponse.accessToken;
         document.getElementById("output").innerHTML =
           `<h3>Access Token</h3><code>${accessToken}</code>`;
-        // Optionally, fetch user data
+
         FB.api('/me?fields=id,name', function(userInfo) {
           document.getElementById("output").innerHTML +=
             `<p>Welcome ${userInfo.name}</p>`;
